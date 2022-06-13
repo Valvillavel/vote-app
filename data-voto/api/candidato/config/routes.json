@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/candidatoes",
+      "handler": "candidato.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/candidatoes/count",
+      "handler": "candidato.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/candidatoes/:id",
+      "handler": "candidato.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/candidatoes",
+      "handler": "candidato.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/candidatoes/:id",
+      "handler": "candidato.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/candidatoes/:id",
+      "handler": "candidato.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

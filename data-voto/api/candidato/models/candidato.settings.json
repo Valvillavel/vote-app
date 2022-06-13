@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "candidatoes",
+  "info": {
+    "name": "candidato"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "apellidos": {
+      "type": "string"
+    },
+    "propuesta": {
+      "type": "richtext"
+    },
+    "partidoPolitico": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}

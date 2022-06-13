@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "votantes",
+  "info": {
+    "name": "votante"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "apellidos": {
+      "type": "string"
+    },
+    "ci": {
+      "type": "string"
+    },
+    "fechaNac": {
+      "type": "date"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "domicilio": {
+      "type": "string"
+    }
+  }
+}
